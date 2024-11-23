@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload and Prediction</title>
+    <style>
+        /* Reset and basic styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Background color for areas without an image */
+    background-image: url('/static/bg2.png');
+    background-size: cover; /* Scales the image proportionally to cover the viewport */
+    background-position: center;
+    background-repeat: no-repeat; /* Prevents tiling */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Ensures the body covers the full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the container horizontally and vertically */
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 12px; /* Smooth rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds subtle shadow */
+    max-width: 600px; /* Limits width */
+    width: 100%; /* Ensures responsiveness */
+    padding: 70px; /* Comfortable padding inside the container */
+    text-align: center; /* Centers content inside */
+}
+
+
+
+        h1 {
+            font-size: 2rem;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        .drag-area {
+            border: 2px dashed #888;
+            border-radius: 12px;
+            padding: 40px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .drag-area:hover {
+            background-color: #f4f4f4;
+            border-color: #555;
+            transform: scale(1.02);
+        }
+
+        .drag-area.hover {
+            background-color: #e6e6e6;
+            border-color: #333;
+        }
+
+        .drag-area p {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .drag-area span {
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        #file-input {
+            display: none;
+        }
+
+        .predict-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .predict-btn:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        .output {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: #f9f9f9;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            font-size: 1rem;
+            color: #333;
+            display: none; /* Hidden by default */
+            transition: all 0.3s ease-in-out;
+        }
+
+        .output.show {
+            display: block; /* Show when content is updated */
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            .drag-area {
+                padding: 30px;
+            }
+
+            .predict-btn {
+                padding: 8px 16px;
+                font-size: 0.9rem;
+            }
+
+            .output {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload and Predict</h1>
+        <div class="drag-area" id="drag-area">
+            <p>Drag and drop files here or <span>click to upload</span></p>
+        </div>
+        <input type="file" id="file-input" accept="image/*">
+        <button class="predict-btn" id="predict-btn" disabled>Predict</button>
+        <div class="output" id="output">Your results will appear here...</div>
+    </div>
+
+    <script>
+        const dragArea = document.getElementById('drag-area');
+        const fileInput = document.getElementById('file-input');
+        const predictBtn = document.getElementById('predict-btn');
+        const output = document.getElementById('output');
+        let uploadedFile = null;
+
+        dragArea.addEventListener('click', () => fileInput.click());
+
+        dragArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            dragArea.classList.add('hover');
+        });
+
+        dragArea.addEventListener('dragleave', () => dragArea.classList.remove('hover'));
+
+        dragArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            dragArea.classList.remove('hover');
+            uploadedFile = e.dataTransfer.files[0];
+            enablePredictButton();
+        });
+
+        fileInput.addEventListener('change', () => {
+            uploadedFile = fileInput.files[0];
+            enablePredictButton();
+        });
+
+        predictBtn.addEventListener('click', () => {
+            if (!uploadedFile) return;
+            const formData = new FormData();
+            formData.append('file', uploadedFile);
+
+            fetch('/upload', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    output.textContent = `Error: ${data.error}`;
+                } else {
+                    output.textContent = `Prediction: ${data.prediction}`;
+                }
+                output.classList.add('show');
+            })
+            .catch(err => {
+                console.error('Error:', err);
+                output.textContent = 'An error occurred.';
+                output.classList.add('show');
+            });
+        });
+
+        function enablePredictButton() {
+            if (uploadedFile) {
+                predictBtn.disabled = false;
+                predictBtn.style.backgroundColor = "#007bff";
+            }
+        }
+    </script>
+</body>
+</html>
