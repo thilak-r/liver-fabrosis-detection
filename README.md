@@ -125,9 +125,9 @@ Thank you for checking out our project! We hope this inspires you to explore the
 ---
 
 ## 🙌 Contributors
-Prajwal Koundinya - GitHub : https://github.com/Prajwal-koundinya
-Thilak R - GitHub : https://github.com/thilak-r
 
+Thilak R - GitHub : https://github.com/thilak-r
+Prajwal Koundinya - GitHub : https://github.com/Prajwal-koundinya
 ---
 
 ## 📌 Keywords
