@@ -83,7 +83,7 @@ This project is an advanced AI-based system to detect and classify liver fibrosi
 ## 🚀 **How to Run This Project**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/liver-fibrosis-detection.git
+   git clone https://github.com/thilak-r/liver-fibrosis-detection.git
    cd liver-fibrosis-detection
 
 2. Install Dependencies: 
