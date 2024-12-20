@@ -30,10 +30,7 @@ This project is an advanced AI-based system to detect and classify liver fibrosi
   - **Training Set**: 70%
   - **Validation Set**: 15%
   - **Test Set**: 15%
-
----
-
-## 🖥️ **Results screenshot**
+  - 
 ---
 
 ### Confusion Matrix
@@ -130,7 +127,7 @@ under guidance of [Dr Agughasi Victor Ikechukwu](https://github.com/Victor-Ikech
 ## 🙌 Contributors
 
 ### Thilak R - GitHub : https://github.com/thilak-r  <br>
-### Prajwal Koundinya - GitHub : https://github.com/Prajwal-koundinya
+### Prajwal Koundinya - GitHub : https://github.com/Prajwal-koundinya  <br>
 ---
 
 ## 📌 Keywords
