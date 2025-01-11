@@ -124,12 +124,6 @@ Thank you for checking out our project! We hope this inspires you to explore the
 <br><br>
 under guidance of [Dr Agughasi Victor Ikechukwu](https://github.com/Victor-Ikechukwu)
 
-## 🙌 Contributors
-
- Thilak R - GitHub : https://github.com/thilak-r  <br>
- Prajwal Koundinya - GitHub : https://github.com/Prajwal-koundinya  <br>
----
-
 ## 📌 Keywords
 #LiverFibrosis #AIHealthcare #DeepLearning #MedicalAI #PyTorch #ResNet18 #ExplainableAI #HealthcareInnovation
 
