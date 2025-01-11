@@ -126,8 +126,8 @@ under guidance of [Dr Agughasi Victor Ikechukwu](https://github.com/Victor-Ikech
 
 ## 🙌 Contributors
 
-### Thilak R - GitHub : https://github.com/thilak-r  <br>
-### Prajwal Koundinya - GitHub : https://github.com/Prajwal-koundinya  <br>
+ Thilak R - GitHub : https://github.com/thilak-r  <br>
+ Prajwal Koundinya - GitHub : https://github.com/Prajwal-koundinya  <br>
 ---
 
 ## 📌 Keywords
