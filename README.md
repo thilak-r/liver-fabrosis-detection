@@ -121,11 +121,13 @@ Thank you for checking out our project! We hope this inspires you to explore the
 
 ---
 
-<br><br>
-under guidance of [Dr Agughasi Victor Ikechukwu](https://github.com/Victor-Ikechukwu)
-
 ## 📌 Keywords
 #LiverFibrosis #AIHealthcare #DeepLearning #MedicalAI #PyTorch #ResNet18 #ExplainableAI #HealthcareInnovation
+
+---
+
+<br><br>
+under guidance of [Dr Agughasi Victor Ikechukwu](https://github.com/Victor-Ikechukwu)
 
 
 
