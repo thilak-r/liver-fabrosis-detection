@@ -122,7 +122,9 @@ Thank you for checking out our project! We hope this inspires you to explore the
 ---
 
 ## 📌 Keywords
-#LiverFibrosis #AIHealthcare #DeepLearning #MedicalAI #PyTorch #ResNet18 #ExplainableAI #HealthcareInnovation
+#LiverFibrosis #AIHealthcare #DeepLearning
+#MedicalAI #PyTorch #ResNet18 #ExplainableAI
+#HealthcareInnovation
 
 ---
 
