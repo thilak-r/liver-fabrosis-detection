@@ -116,10 +116,7 @@ Monitoring disease progression and treatment efficacy in patients with chronic l
 
 ---
 
-## ❤️ Thank You!
-Thank you for checking out our project! We hope this inspires you to explore the intersection of AI and healthcare. Feel free to reach out for questions, suggestions, or collaborations.
 
----
 
 ## 📌 Keywords
 #LiverFibrosis #AIHealthcare #DeepLearning
@@ -133,7 +130,10 @@ under guidance of [Dr Agughasi Victor Ikechukwu](https://github.com/Victor-Ikech
 
 
 
+## ❤️ Thank You!
+Thank you for checking out our project! We hope this inspires you to explore the intersection of AI and healthcare. Feel free to reach out for questions, suggestions, or collaborations.
 
+---
 
 
 
