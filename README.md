@@ -125,7 +125,6 @@ Monitoring disease progression and treatment efficacy in patients with chronic l
 
 ---
 
-<br><br>
 under guidance of [Dr Agughasi Victor Ikechukwu](https://github.com/Victor-Ikechukwu)
 
 
