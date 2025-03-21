@@ -123,13 +123,6 @@ Monitoring disease progression and treatment efficacy in patients with chronic l
 #MedicalAI #PyTorch #ResNet18 #ExplainableAI
 #HealthcareInnovation
 
----
-
-
-## ❤️ Thank You!
-Thank you for checking out our project! We hope this inspires you to explore the intersection of AI and healthcare. Feel free to reach out for questions, suggestions, or collaborations.
-
----
 
 
 
@@ -137,3 +130,11 @@ Thank you for checking out our project! We hope this inspires you to explore the
 
 under guidance of [Dr Agughasi Victor Ikechukwu](https://github.com/Victor-Ikechukwu)
 
+
+---
+
+
+## ❤️ Thank You!
+Thank you for checking out our project! We hope this inspires you to explore the intersection of AI and healthcare. Feel free to reach out for questions, suggestions, or collaborations.
+
+---
