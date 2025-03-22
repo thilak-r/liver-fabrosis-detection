@@ -4,7 +4,13 @@
 Liver fibrosis is a serious medical condition caused by the excessive buildup of connective tissue in the liver due to chronic damage. Left untreated, it can progress to cirrhosis and even liver failure, significantly impacting patients' lives. Early and accurate detection of liver fibrosis is critical for timely intervention and effective treatment, reducing the burden on patients and healthcare systems.
 
 ---
+<a href="https://github.com/thilak-r/liver-fabrosis-detection/blob/main/Original-ResNet-18-Architecture.png">
+  <img src="https://raw.githubusercontent.com/thilak-r/liver-fabrosis-detection/main/Original-ResNet-18-Architecture.png" 
+       alt="Original ResNet-18 Architecture" 
+       style="max-width: 100%; height: auto; display: block; margin: auto;">
+</a>
 
+---
 ## 🚀 **Project Overview**
 This project is an advanced AI-based system to detect and classify liver fibrosis stages (F0 to F4) from medical images. Using a pretrained **ResNet-18** model and optimized training methods, our model achieves high accuracy and reliability in distinguishing between subtle stages of fibrosis.
 
