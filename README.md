@@ -122,23 +122,9 @@ Early-stage detection that empowers healthcare professionals to intervene prompt
 Monitoring disease progression and treatment efficacy in patients with chronic liver conditions.
 
 ---
-
-
-
-
-
-
-
 under guidance of [Dr Agughasi Victor Ikechukwu](https://github.com/Victor-Ikechukwu)
 ---
-## 📌 Keywords
-#LiverFibrosis #AIHealthcare #DeepLearning
-#MedicalAI #PyTorch #ResNet18 #ExplainableAI
-#HealthcareInnovation #OpenCV
 
-
-
----
 
 
 ## ❤️ Thank You!
