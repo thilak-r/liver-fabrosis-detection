@@ -34,11 +34,12 @@ This project is an advanced AI-based system to detect and classify liver fibrosi
   - `F2`: Portal fibrosis with fewer septa (793 images)
   - `F3`: Many septa but no cirrhosis (857 images)
   - `F4`: Liver cirrhosis (1,698 images)
+    
 - **Data Split**:
   - **Training Set**: 70%
   - **Validation Set**: 15%
   - **Test Set**: 15%
-  - 
+    
 ---
 
 ### Confusion Matrix
