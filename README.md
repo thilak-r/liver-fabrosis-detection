@@ -2,8 +2,6 @@
 
 ### 🩺 **Why is Liver Fibrosis Detection Important?**
 Liver fibrosis is a serious medical condition caused by the excessive buildup of connective tissue in the liver due to chronic damage. Left untreated, it can progress to cirrhosis and even liver failure, significantly impacting patients' lives. Early and accurate detection of liver fibrosis is critical for timely intervention and effective treatment, reducing the burden on patients and healthcare systems.
---
-⭐ If you like this project, don't forget to give it a star on GitHub!  
 
 ---
 <a href="https://github.com/thilak-r/liver-fabrosis-detection/blob/main/Original-ResNet-18-Architecture.png">
@@ -121,6 +119,7 @@ This achievement highlights the model's potential for real-world applications, s
 Non-invasive diagnosis of liver fibrosis, reducing the need for painful and invasive biopsies.
 Early-stage detection that empowers healthcare professionals to intervene promptly, potentially halting or reversing disease progression.
 Monitoring disease progression and treatment efficacy in patients with chronic liver conditions.
+
 
 
 
