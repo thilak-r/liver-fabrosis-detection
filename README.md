@@ -121,7 +121,7 @@ Early-stage detection that empowers healthcare professionals to intervene prompt
 Monitoring disease progression and treatment efficacy in patients with chronic liver conditions.
 
 
-## ❤️ Thank You!
+## ❤️ Thank You! 1
 Thank you for checking out our project! We hope this inspires you to explore the intersection of AI and healthcare. Feel free to reach out for questions, suggestions, or collaborations.
 ---
 under guidance of [Dr Agughasi Victor Ikechukwu](https://github.com/Victor-Ikechukwu)
